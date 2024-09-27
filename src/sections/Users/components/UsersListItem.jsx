@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 export default function UserListItem({ User }) {
-    console.log("inside UserListItem ", User)
   return (
     <li style={{background: '#0d7f26'}}>
       <div className="frame">

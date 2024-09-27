@@ -4,8 +4,6 @@ import UserListItem from './UsersListItem'
 
 export default function UserList({UserList}) {
 
-    console.log("inside UserList ", UserList[0])
-
     return (
         <ul className="user-list">
             {UserList.map((user, i) => (
